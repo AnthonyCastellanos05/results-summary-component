@@ -345,3 +345,55 @@ button:active {
 
 }
 
+@media only screen and (max-width: 393px) {
+
+  .results-summary-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6.2rem;
+  }
+
+  .your-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: hsla(241, 100%, 89%, 100%);
+  }
+
+button{
+  font-family: 'Hanken Grotesk', sans-serif; 
+  display: block;
+  margin-inline: auto;
+  padding: 18px;
+  margin-top: 3rem;
+  width: 20rem;
+  border-radius: 1000px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+}
+
+button:active {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 10px;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+
